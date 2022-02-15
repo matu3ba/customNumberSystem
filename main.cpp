@@ -6,20 +6,16 @@
 bool isValidNumber(std::vector<int> &mem, int base)
 {
   for (int index = 0; index < mem.size(); index+=1)
-  {
     if(mem[index] >= base)
       return false;
-  }
   return true;
 }
 
 bool isNotNull(std::vector<int> &mem)
 {
   for(int index=0; index<mem.size(); index+=1)
-  {
     if (mem[index] != 0)
       return true;
-  }
   return false;
 }
 
